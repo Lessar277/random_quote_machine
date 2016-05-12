@@ -1,0 +1,52 @@
+.container {
+    font-family: 'Roboto', sans-serif;
+    background: red;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-title {
+    height:100px;
+    background: purple;
+    margin-top: 25px;
+}
+
+.quote-body {
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    background: blue;
+    margin-top: 8%;
+    margin-bottom: 15%;
+}
+
+.row {
+    background: green;
+}
+
+.quote {
+    font-size: 1.4em;
+    margin: 0 auto;
+    margin-top: 50px;
+    background: white;
+    padding: 20px;
+    color: teal;
+    width: 90%;
+    border-radius: 1%;
+}
+
+.btn-grp {
+    margin-top: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.tweet {
+    margin-right: auto;
+    width: 35px;
+}
+.tweet, .get-quote {
+    height: 35px;
+    margin-bottom: 15px;
+}
