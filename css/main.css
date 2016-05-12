@@ -55,6 +55,11 @@ button {
     margin-bottom: 15px;
 }
 
+.tweetlink {
+	height: 100%;
+	width: 100%;
+}
+
 @media (max-width: 768px) {
 	.quote {
 		font-size: 0.9em;
