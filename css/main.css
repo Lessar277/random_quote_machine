@@ -5,41 +5,45 @@
     justify-content: center;
 }
 
-.quote-title {
-    height:100px;
-    background: purple;
-    margin-top: 25px;
-}
-
 .quote-body {
     display: flex;
     flex-direction: column;
     height: 350px;
-    background: blue;
     margin-top: 8%;
     margin-bottom: 15%;
 }
 
-.row {
-    background: green;
+.fa-quote-right {
+	padding-right: 10px;
 }
 
 .quote {
+	display: flex;
+	flex-direction: column;
     font-size: 1.4em;
-    margin: 0 auto;
     margin-top: 50px;
     background: white;
     padding: 20px;
     color: teal;
-    width: 90%;
-    border-radius: 1%;
+    width: 100%;
+}
+
+.author {
+	align-self: flex-end;
 }
 
 .btn-grp {
+	width: 80%;
+	margin: auto;
     margin-top: auto;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
+}
+
+button {
+	border-style: none;
+	font-weight: bold;
 }
 
 .tweet {
@@ -49,4 +53,25 @@
 .tweet, .get-quote {
     height: 35px;
     margin-bottom: 15px;
+}
+
+@media (max-width: 768px) {
+	.quote {
+		font-size: 0.9em;
+	}
+}
+@media (min-width: 769px) {
+	.quote {
+		font-size: 1em;
+	}
+}
+@media (min-width: 992px) {
+	.quote {
+		font-size: 1.2em;
+	}
+}
+@media (min-width: 1200px) {
+	.quote {
+		font-size: 1.3em;
+	}
 }
