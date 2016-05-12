@@ -48,17 +48,17 @@ button {
 
 .tweet {
     margin-right: auto;
-    width: 35px;
 }
 .tweet, .get-quote {
     height: 35px;
     margin-bottom: 15px;
+    font-weight: bold;
 }
 
-.tweetlink {
+/*.tweetlink {
 	height: 100%;
 	width: 100%;
-}
+}*/
 
 @media (max-width: 768px) {
 	.quote {
