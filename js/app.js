@@ -1,4 +1,4 @@
-var colors = ['#42A5F5','#66BB6A','#f44336','#9C27B0','#673AB7','#3F51B5','#2196F3','#FF5722','#BF360C'];
+var colors = ['#42A5F5','#66BB6A','#f44336','#9C27B0','#673AB7','#3F51B5','#2196F3','#FF5722','#BF360C','#FDD437'];
 var url = "https://andruxnet-random-famous-quotes.p.mashape.com/?cat=famous";
 var tweetURL = ``;
 
